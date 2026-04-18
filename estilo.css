@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: century gothic;
+    border-radius: 20px;
+}
+header{
+    width: 80%;
+    box-shadow: 3px 3px 3px 3px gray;
+    margin: 40px auto 40px auto;
+}
+header h1{
+    padding: 30px;
+    font-size: 40px;
+}
+header ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    background-color: #ff9ec2;
+    margin: auto;
+    list-style-type: none;
+}
+header a{
+    display: block;
+    color: #d62f6c;
+    padding: 15px 0 15px 0;
+}
+header a:hover{
+    display: block;
+    color: #d62f6c;
+    padding: 15px 0 15px 0;
+    background-color: #6e092e;
+}
+main{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+main img{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+.phaidei{
+    clip-path: circle(50%);
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+.aruchaco{
+    clip-path: circle(50%);
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+main div{
+    margin-top: 30px;
+}
+footer{
+    margin-top: 50px;
+    background-color: #ff9ec2;
+    border-radius: 0;
+}
+footer p{
+    padding: 100px;
+}
+
+@media (max-width:500px){
+    header ul{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    background-color: #ff9ec2;
+    margin: auto;
+    list-style-type: none;
+    }
+    main{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    }
+}
