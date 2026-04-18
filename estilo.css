@@ -60,7 +60,7 @@ main div{
     margin-top: 30px;
 }
 footer{
-    margin-top: 30px;
+    margin-top: 35px;
     background-color: #ff9ec2;
     border-radius: 0;
 }
@@ -68,19 +68,19 @@ footer p{
     padding: 100px;
 }
 
-@media (max-width:500px){
-    header ul{
-    display: grid;
-    grid-template-columns: auto;
-    width: 100%;
-    background-color: #ff9ec2;
-    margin: auto;
-    list-style-type: none;
+@media (min-width:200px) and (max-width:1024px){
+    header ul {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        background-color: #ff9ec2;
+        margin: auto;
+        list-style-type: none;
     }
     main{
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: auto;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
     }
 }
